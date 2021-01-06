@@ -12,13 +12,13 @@
     <body>
 
         <!-- Website Title -->
-    	<div class="container">
+    	<div class="container" style="background-color: grey">
             <h2 class='container-heading'><span class="heading_font">Measure Your Diabetes</span></h2>
     
     	</div>
 
         <!-- Text Area -->
-    	<div class="ml-container">
+    	<div class="ml-container" style="background-color:grey">
     		<form action="{{ url_for('predict') }}" method="POST">
                 <input class="form-input" type="text" name="pregnancies" placeholder="Number of Pregnancies eg. 0"><br>
                 <input class="form-input" type="text" name="glucose" placeholder="Glucose level eg. 80"><br>
